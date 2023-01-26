@@ -72,7 +72,7 @@ const Navbar = () => {
                 ))}
             </List>
         </Drawer>
-       
+    
     );
 };
 
