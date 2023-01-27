@@ -116,7 +116,7 @@ const CryptoDetails = () => {
                             <Typography variant="h6" gutterBottom align='center' color="white" sx={{m:'2rem 0'}}>overview of the statistics of all cryptoCurrencies.</Typography>
                         </Grid>
                         <Grid item xs={12} sm={12} md={12} lg={12} className="coin-stats" align="center">
-                            <List sx={{ width: '100%', maxWidth: 450, bgcolor: '#03C988' }}>
+                            <List sx={{ width: '90%', maxWidth: 450, bgcolor: '#03C988' }}>
                                 {genericStats.map(({ icon, title, value }) => (
                                     <ListItem key={title} sx={{borderBottom:"1px solid #E5E5CB"}}>
                                         <Grid container spacing={2} sx={{ alignItems: 'center' }}>
