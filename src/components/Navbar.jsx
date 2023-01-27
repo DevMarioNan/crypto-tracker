@@ -46,6 +46,7 @@ const Navbar = () => {
             display: { xs: 'none', sm: 'none' ,md:'flex' , lg:'flex' , xl:'flex'},
             '& .MuiDrawer-paper': { boxSizing: 'border-box' },
             width: "17rem",
+            zIndex: 1,
         }}
         PaperProps={{
             sx: {

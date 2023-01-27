@@ -18,7 +18,7 @@ const HomePage = ()=> {
 
     return (
         <Box align="center" sx={{width:"90%"}}>
-            <Typography variant="h3" color="white" align="center" sx={{margin:"2rem 0"}}>
+            <Typography variant="h3" color="white" align="center" sx={{padding:"2rem 0"}}>
                 Global Crypto Stats
             </Typography>
             <Grid container spacing={2} color="white" align="center" >

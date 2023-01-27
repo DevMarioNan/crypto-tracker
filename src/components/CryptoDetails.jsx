@@ -54,10 +54,11 @@ const CryptoDetails = () => {
     ];
 
     return (
+        <div style={{marginTop:"2rem"}}>
         <Grid container spacing={4}>
             <Grid item xs={12} sm={12} md={12} lg={12}>
-                <Typography variant="h2" gutterBottom align='center' color="white" sx={{m:'2rem 0'}}>{cryptoDetails?.name} ({cryptoDetails?.symbol}) Price</Typography>
-                <Typography variant="h5" gutterBottom align='center' color="white" sx={{m:'2rem 0'}}>{cryptoDetails?.name} live price in US dollars. View value statistics, market cap and supply.</Typography>
+                <Typography variant="h2" gutterBottom align='center' color="white" sx={{p:'1rem 0'}}>{cryptoDetails?.name} ({cryptoDetails?.symbol}) Price</Typography>
+                <Typography variant="h5" gutterBottom align='center' color="white" sx={{p:'1rem 0'}}>{cryptoDetails?.name} live price in US dollars. View value statistics, market cap and supply.</Typography>
             </Grid>
 
             <Grid item xs={12} sm={12} md={12} lg={12} align="center">
@@ -165,6 +166,7 @@ const CryptoDetails = () => {
             </Grid>
 
         </Grid>
+        </div>
     );
 }
 
