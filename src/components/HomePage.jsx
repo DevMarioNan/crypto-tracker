@@ -17,7 +17,7 @@ const HomePage = ()=> {
     if(isFetching) return (<Typography variant="h3" color="white" align="center" sx={{margin:"2rem 0"}}>Loading...</Typography> );
 
     return (
-        <Box align="center">
+        <Box align="center" sx={{width:"90%"}}>
             <Typography variant="h3" color="white" align="center" sx={{margin:"2rem 0"}}>
                 Global Crypto Stats
             </Typography>

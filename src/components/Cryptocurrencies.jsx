@@ -16,10 +16,10 @@ const Cryptocurrencies = ({simplified}) => {
     
 
     return ( 
-        <>
+        <div >
             {!simplified &&
             <TextField 
-            fullWidth
+            width="100%"
             InputLabelProps={{style: {color: '#B6EADA',fontSize:'1em'}}}
             inputProps={{style: {color: 'white',fontSize:'2em',height:'1em'}}}
             sx={{m:'1rem auto'}} 
@@ -61,7 +61,7 @@ const Cryptocurrencies = ({simplified}) => {
                 ))}
             </Grid>
 
-        </>
+        </div>
     );
 }
 

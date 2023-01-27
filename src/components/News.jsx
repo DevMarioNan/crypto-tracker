@@ -24,7 +24,7 @@ const News = ({ simplified }) => {
     }
 
     return (
-        <>
+        <div >
             {!simplified && (
                 <FormControl sx={{ m: 1, minWidth: 120 }}>
                     <Select
@@ -74,7 +74,7 @@ const News = ({ simplified }) => {
                     </Grid>
                 ))}
             </Grid>
-        </>
+        </div>
     );
 }
 
