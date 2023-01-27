@@ -15,7 +15,7 @@ const News = ({ simplified }) => {
     const [news, setNews] = useState(cryptoNews?.value);
     if (isFetching) return 'Loading...';
     if (!news) setNews(cryptoNews?.value);
-    console.log(news)
+    
 
     const handleChange = (e) => {
         

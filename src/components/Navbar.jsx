@@ -39,7 +39,11 @@ const Navbar = () => {
     ];
     return (
         <Drawer
-        sx={{display:"flex",width: '17rem' }}
+        sx={{
+            display: { xs: 'none', sm: 'block' ,md:'flex' , lg:'flex' , xl:'flex'},
+            '& .MuiDrawer-paper': { boxSizing: 'border-box' },
+            width: "17rem",
+        }}
         PaperProps={{
             sx: {
                     backgroundColor: "#171010",
