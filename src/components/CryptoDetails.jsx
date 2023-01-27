@@ -74,12 +74,14 @@ const CryptoDetails = () => {
                     </Select>
                 </FormControl>
             </Grid>
-
+            
+            <Grid item xs={12} sm={12} md={12} lg={12} align="center">
             <LineChart coinHistory={coinHistory} currentPrice={millify(cryptoDetails?.price)} coinName={cryptoDetails?.name}/>
+            </Grid>
 
             <Grid container className="stats-container">
-                <Grid item xs={12} sm={12} md={12} lg={6}>
-                    <Grid container spacing={4} className="coin-value-statistics">
+                <Grid item xs={12} sm={12} md={12} lg={6} align="center">
+                    <Grid container spacing={4} className="coin-value-statistics" align="center">
                         <Grid item xs={12} sm={12} md={12} lg={12} className="coin-details-heading">
                             <Typography variant="h4" gutterBottom align='center' color="white" sx={{m:'2rem 0'}}>{cryptoDetails?.name} Value Statistics</Typography>
                             <Typography variant="h6" gutterBottom align='center' color="white" sx={{m:'2rem 0'}}>An overview showing the statistics of {cryptoDetails?.name}</Typography>
@@ -107,9 +109,9 @@ const CryptoDetails = () => {
                 </Grid>
             
             
-            <Grid item xs={12} sm={12} md={12} lg={6}>
-                    <Grid container spacing={4} className="other-stats-info">
-                        <Grid item xs={12} sm={12} md={12} lg={12} className="coin-details-heading">
+            <Grid item xs={12} sm={12} md={12} lg={6} align="center">
+                    <Grid container spacing={4} className="other-stats-info" align="center">
+                        <Grid item xs={12} sm={12} md={12} lg={12} className="coin-details-heading" align="center">
                             <Typography variant="h4" gutterBottom align='center' color="white" sx={{m:'2rem 0'}}>Other Statistics</Typography>
                             <Typography variant="h6" gutterBottom align='center' color="white" sx={{m:'2rem 0'}}>overview of the statistics of all cryptoCurrencies.</Typography>
                         </Grid>

@@ -7,6 +7,7 @@ import CurrencyExchangeIcon from '@mui/icons-material/CurrencyExchange';
 import NewspaperIcon from '@mui/icons-material/Newspaper';
 import "../main.css"
 import {List , ListItem , ListItemIcon , ListItemText} from "@mui/material"
+import {AppBar , Box,IconButton , Toolbar } from "@mui/material"
 
 
 const Navbar = () => {
@@ -38,9 +39,12 @@ const Navbar = () => {
         
     ];
     return (
+
+        
+
         <Drawer
         sx={{
-            display: { xs: 'none', sm: 'block' ,md:'flex' , lg:'flex' , xl:'flex'},
+            display: { xs: 'none', sm: 'none' ,md:'flex' , lg:'flex' , xl:'flex'},
             '& .MuiDrawer-paper': { boxSizing: 'border-box' },
             width: "17rem",
         }}

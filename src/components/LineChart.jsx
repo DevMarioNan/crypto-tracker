@@ -67,7 +67,7 @@ const LineChart = ({ coinHistory, currentPrice, coinName }) => {
 
 
         <>
-            <Box sx={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '1rem' }}>
+            <Box sx={{ width: '90%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '1rem' }}>
                 <Typography variant='h4' sx={{ color: '#fff', marginBottom: '1rem' }}>{coinName} Price Chart</Typography>
                 <Box>
                     <Typography variant='h6' sx={{ color: '#fff', marginBottom: '1rem' }}>
