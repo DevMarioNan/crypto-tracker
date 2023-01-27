@@ -84,7 +84,7 @@ const CryptoDetails = () => {
                     <Grid container spacing={4} className="coin-value-statistics" align="center">
                         <Grid item xs={12} sm={12} md={12} lg={12} className="coin-details-heading" align="center">
                             <Typography variant="h4" gutterBottom align='center' color="white" sx={{m:'2rem 0'}}>{cryptoDetails?.name} Value Statistics</Typography>
-                            <Typography variant="h6" gutterBottom align='center' color="white" sx={{m:'2rem 0'}}>An overview showing the statistics of {cryptoDetails?.name}</Typography>
+                            <Typography variant="h6" gutterBottom align='center' color="white" sx={{m:'2rem 0'}}>overview showing the statistics of {cryptoDetails?.name}</Typography>
                         </Grid>
                         <Grid item xs={12} sm={12} md={12} lg={12} className="coin-stats" align="center">
                             <List sx={{ width: '100%', maxWidth: 450, bgcolor: '#03C988' }}>
