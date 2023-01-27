@@ -79,7 +79,7 @@ const CryptoDetails = () => {
             <LineChart coinHistory={coinHistory} currentPrice={millify(cryptoDetails?.price)} coinName={cryptoDetails?.name}/>
             </Grid>
 
-            <Grid container className="stats-container">
+            <Grid container className="stats-container" align="center">
                 <Grid item xs={12} sm={12} md={12} lg={6} align="center">
                     <Grid container spacing={4} className="coin-value-statistics" align="center">
                         <Grid item xs={12} sm={12} md={12} lg={12} className="coin-details-heading" align="center">
