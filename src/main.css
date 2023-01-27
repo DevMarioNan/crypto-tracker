@@ -1,3 +1,7 @@
+html{
+    width: 100vw;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -6,6 +10,5 @@ body{
 }
 .nav-drawer{
     width: 17rem;
-   
     color: rgba(255, 255, 255, 0.362);
 }
