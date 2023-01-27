@@ -7,6 +7,7 @@ import { Grid, TextField } from "@mui/material";
 import { Link } from '@mui/material';
 import { FormControl, FormHelperText, InputLabel, MenuItem, Select } from '@mui/material';
 import { useGetCryptosQuery } from '../services/cryptoAPI';
+
 const News = ({ simplified }) => {
     const {data } = useGetCryptosQuery(100);
     const [newsCategory, setNewsCategory] = useState('Cryptocurrency');
@@ -47,7 +48,7 @@ const News = ({ simplified }) => {
                 {news?.map((newsItem, i) => (
                     <Grid item xs={12} sm={6} md={4} lg={3} key={i}>
                         <CardActionArea component={Link} href={newsItem.url} rel="noopener noreferrer" target="_blank">
-                            <Card sx={{ maxWidth: 345, height: 500 }}>
+                            <Card sx={{ maxWidth: 345, height: "auto" }}>
                                 <CardHeader
                                     avatar={newsItem.provider[0]?.image?.thumbnail?.contentUrl && (
                                         <img src={newsItem.provider[0]?.image?.thumbnail?.contentUrl} style={{ height: 50, borderRadius: "0%" }} />

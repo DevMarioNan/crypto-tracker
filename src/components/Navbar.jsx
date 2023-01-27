@@ -39,7 +39,7 @@ const Navbar = () => {
     ];
     return (
         <Drawer
-        sx={{display:"flex",width: '20rem' }}
+        sx={{display:"flex",width: '17rem' }}
         PaperProps={{
             sx: {
                     backgroundColor: "#171010",
