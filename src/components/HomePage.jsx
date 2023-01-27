@@ -5,6 +5,7 @@ import millify from 'millify';
 import {Link} from 'react-router-dom';
 import Cryptocurrencies from './Cryptocurrencies';
 import News from './News';
+import { Box } from '@mui/system';
 
 
 const HomePage = ()=> {
@@ -16,11 +17,11 @@ const HomePage = ()=> {
     if(isFetching) return (<Typography variant="h3" color="white" align="center" sx={{margin:"2rem 0"}}>Loading...</Typography> );
 
     return (
-        <>
+        <Box align="center">
             <Typography variant="h3" color="white" align="center" sx={{margin:"2rem 0"}}>
                 Global Crypto Stats
             </Typography>
-            <Grid container spacing={2} color="white" >
+            <Grid container spacing={2} color="white" align="center" >
                 
                 <Grid item xs={6}>
                     <Typography variant="h6" color="#B6EADA" align="left" sx={{margin:"2rem 0"}}>
@@ -92,7 +93,7 @@ const HomePage = ()=> {
                     </Typography>
                 </Link>
 
-        </>
+        </Box>
     )
 }
 

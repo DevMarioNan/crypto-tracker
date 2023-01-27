@@ -18,7 +18,7 @@ function App() {
       <div className='navbar'>
         <Navbar /> 
       </div>
-      <Box className='main' style={{width:'100%',backgroundColor:"#03C988",padding:'1rem'}}>
+      <Box className='main' align="center" style={{width:'100%',backgroundColor:"#03C988"}}>
         <Routes>
           <Route exact path='/' element={<HomePage />} />
           <Route exact path='/exchanges' element={<Exchanges />} />
