@@ -7,15 +7,18 @@ import Cryptocurrencies from './components/Cryptocurrencies';
 import CryptoDetails from './components/CryptoDetails';
 import News from './components/News';
 import Footer from './components/Footer';
-
+import Appbar from './components/Appbar';
+import { Box } from '@mui/system';
 
 function App() {
   return (
-    <div className="app" style={{ display: 'flex' ,width:"100%"}}>
+    <Box className="app" sx={{ display: {xs: 'block', sm: 'block' ,md:'flex' , lg:'flex' , xl:'flex'} ,width:"100vw"}}>
+      
+      <Appbar />
       <div className='navbar'>
-        <Navbar />
+        <Navbar /> 
       </div>
-      <div className='main' style={{width:'100%',backgroundColor:"#03C988",padding:'1rem'}}>
+      <Box className='main' style={{width:'100%',backgroundColor:"#03C988",padding:'1rem'}}>
         <Routes>
           <Route exact path='/' element={<HomePage />} />
           <Route exact path='/exchanges' element={<Exchanges />} />
@@ -26,8 +29,8 @@ function App() {
         <div >
           <Footer />
         </div>
-      </div>
-    </div>
+      </Box>
+    </Box>
   );
 }
 

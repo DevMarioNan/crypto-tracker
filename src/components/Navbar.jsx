@@ -7,7 +7,6 @@ import CurrencyExchangeIcon from '@mui/icons-material/CurrencyExchange';
 import NewspaperIcon from '@mui/icons-material/Newspaper';
 import "../main.css"
 import {List , ListItem , ListItemIcon , ListItemText} from "@mui/material"
-import {AppBar , Box,IconButton , Toolbar } from "@mui/material"
 
 
 const Navbar = () => {
