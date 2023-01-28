@@ -2,7 +2,6 @@ import { Routes, Route, Link } from 'react-router-dom';
 
 import Navbar from './components/Navbar';
 import HomePage from './components/HomePage';
-import Exchanges from './components/Exchanges';
 import Cryptocurrencies from './components/Cryptocurrencies';
 import CryptoDetails from './components/CryptoDetails';
 import News from './components/News';
