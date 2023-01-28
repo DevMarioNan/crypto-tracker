@@ -20,7 +20,7 @@ function App() {
       <Box className='main' align="center" style={{width:'100%',backgroundColor:"#03C988"}}>
         <Routes>
           <Route exact path='/' element={<HomePage />} />
-          <Route exact path='/exchanges' element={<Exchanges />} />
+          
           <Route exact path='/cryptocurrencies' element={<Cryptocurrencies />} />
           <Route exact path='/crypto/:coinId' element={<CryptoDetails />} />
           <Route exact path='/news' element={<News />} />
