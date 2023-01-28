@@ -26,11 +26,7 @@ const Appbar = () => {
             listText: "CryptoCurrencies",
             listPath: "/cryptocurrencies",
         },
-        {
-            listIcon: <CurrencyExchangeIcon />,
-            listText: "Exchanges",
-            listPath: "/exchanges",
-        },
+        
         {
             listIcon: <NewspaperIcon />,
             listText: "News",

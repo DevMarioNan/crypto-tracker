@@ -26,11 +26,6 @@ const Navbar = () => {
             listPath: "/cryptocurrencies",
         },
         {
-            listIcon: <CurrencyExchangeIcon />,
-            listText: "Exchanges",
-            listPath: "/exchanges",
-        },
-        {
             listIcon: <NewspaperIcon />,
             listText: "News",
             listPath: "/news",

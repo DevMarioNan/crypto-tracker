@@ -1,4 +1,4 @@
-# Cryptox - crypto currency stats website
+# Cryptox - Crypto Currency Stats Website
 
 cryptox is a crypto currency stats website with many features including :
 
@@ -8,7 +8,11 @@ cryptox is a crypto currency stats website with many features including :
 
 [live preview](https://cryptox-sigma.vercel.app)
 
-## some pics
+## Technologies Used
+
+[![My Skills](https://skillicons.dev/icons?i=js,react,redux,materialui)](https://skillicons.dev)
+
+## Some Pics
 
 ![alt text](https://iili.io/H0iXnfe.png)
 ![alt text](https://iili.io/H0ihT4n.png)
@@ -20,7 +24,7 @@ this project make use of some APIs
 - coinranking api : [RapidAPI site](https://rapidapi.com/Coinranking/api/coinranking1)
 - Bing News Search api : [RapidAPI site](https://rapidapi.com/microsoft-azure-org-microsoft-cognitive-services/api/bing-news-search1)
 
-## locale run
+## Locale Run
 
 after cloning this repo you want to run some scripts to run the application
 
