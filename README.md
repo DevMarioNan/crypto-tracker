@@ -10,7 +10,7 @@ cryptox is a crypto currency stats website with many features including :
 
 ## Technologies Used
 
-[![My Skills](https://skillicons.dev/icons?i=js,react,redux,materialui)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,react,redux,materialui)]
 
 ## Some Pics
 
