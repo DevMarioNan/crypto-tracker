@@ -73,7 +73,7 @@ const News = ({ simplified }) => {
                             </Card>
                         </CardActionArea>
                     </Grid>
-                )) : <h1 style={{textAlign:"center",marginLeft:"2rem"}}>  Unable to get news. try again later.</h1>}
+                )) : <h1 style={{textAlign:"center",marginLeft:"2rem"}}>  Unable to get news! try again later.</h1>}
 
             </Grid>
         </div>
