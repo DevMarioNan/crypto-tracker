@@ -14,9 +14,9 @@ const News = ({ simplified }) => {
     const { data: cryptoNews, isFetching } = useGetCryptoNewsQuery({ newsCategory, count: simplified ? 10 : 100 });
     const [news, setNews] = useState(cryptoNews?.value);
     if (isFetching) return 'Loading...';
-    if (!news) setNews(cryptoNews?.value);
+    // if (!news) setNews(cryptoNews?.value);
     
-
+    
     const handleChange = (e) => {
         
         setNewsCategory(e.target.value);
@@ -45,7 +45,8 @@ const News = ({ simplified }) => {
 
             )}
             <Grid container spacing={2} color="white" >
-                {news?.map((newsItem, i) => (
+                
+                {news ? news?.map((newsItem, i) => (
                     <Grid item xs={12} sm={6} md={4} lg={3} key={i}>
                         <CardActionArea component={Link} href={newsItem.url} rel="noopener noreferrer" target="_blank">
                             <Card sx={{ maxWidth: 345, height: "auto" }}>
@@ -72,7 +73,8 @@ const News = ({ simplified }) => {
                             </Card>
                         </CardActionArea>
                     </Grid>
-                ))}
+                )) : <h1 style={{textAlign:"center",marginLeft:"2rem"}}>  Unable to get news. try again later.</h1>}
+
             </Grid>
         </div>
     );
